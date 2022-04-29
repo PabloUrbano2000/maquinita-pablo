@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render component utils/SubTitle 1`] = `
+<div>
+  <span
+    class="css-8rchdx"
+  />
+</div>
+`;
+
+exports[`render component utils/Title 1`] = `
+<div>
+  <span
+    class="css-yzbrn7"
+  />
+</div>
+`;
+
+exports[`render component utils/TitleColor 1`] = `
+<div>
+  <span
+    class="css-1sah1m0"
+  />
+</div>
+`;

@@ -1,0 +1,36 @@
+module.exports = {
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true
+    }
+  },
+  env: {
+    es6: true,
+    node: true,
+    browser: true,
+    commonjs: true
+  },
+  plugins: ['react-hooks', 'react'],
+  settings: {
+    react: {
+      version: 'detect'
+    }
+  },
+  extends: [
+    'eslint:recommended',
+    'plugin:jsx-a11y/recommended',
+    'plugin:react/recommended',
+    'plugin:prettier/recommended',
+    'plugin:sonarjs/recommended',
+    'plugin:security/recommended',
+    'plugin:react-hooks/recommended'
+  ],
+  rules: {
+    'react-hooks/exhaustive-deps': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'react/prop-types': 'off',
+    'unicorn/filename-case': 'off'
+  }
+};

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render component InfoResultGame 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-8ffmfy-MuiPaper-root"
+  >
+    <div
+      class="MuiBox-root css-18z1sft"
+    >
+      <div
+        class="MuiBox-root css-0"
+        style="transform: rotate(-3deg);"
+      >
+        <span
+          class="css-1sah1m0"
+          style="font-size: 2.3rem; display: block; margin-bottom: 5px; text-align: center;"
+        >
+          !FELICITACIONES!
+        </span>
+      </div>
+      <span
+        class="css-8rchdx"
+        style="font-size: 1.3rem; text-align: center;"
+      >
+        Eres el afortunado ganador en llevarse el
+         
+        <span
+          class="css-yzbrn7"
+          style="font-size: 1.5rem; text-align: center;"
+        >
+          PREMIAZO DE TROME.
+        </span>
+      </span>
+      <span
+        class="css-yzbrn7"
+        style="display: block; font-size: 1.5rem; text-align: center; color: rgb(255, 175, 80);"
+      >
+        NOMBRE Y APELLIDO
+        <span
+          class="css-yzbrn7"
+          style="display: block; font-size: 1.5rem; text-align: center; color: rgb(255, 175, 80);"
+        >
+          DNI: 123123131
+        </span>
+      </span>
+      <span
+        class="css-yzbrn7"
+        style="display: block; font-size: 1.3rem; text-align: center;"
+      >
+        Atento, porque estaremos enviando el código de validación a tu correo.
+      </span>
+      <button
+        class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-sghohy-MuiButtonBase-root-MuiButton-root"
+        style="font-size: 1.3rem; border-radius: 80px;"
+        tabindex="0"
+        type="button"
+      >
+        Enviar código al correo
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
